@@ -13,7 +13,7 @@ p {
 /* formatação de imagens com legendas */
 
 figure.foto-legenda{
-    bolder: 8px solid red ;
+    border: 8px solid red ;
 
 }
 figure.foto-legenda img{
