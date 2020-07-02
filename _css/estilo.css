@@ -15,6 +15,7 @@ p {
 figure.foto-legenda{
     border: 8px solid rgb(146, 146, 146) ;
     box-shadow: 1px 1px 4px black;
+    position: relative;
 }
 figure.foto-legenda img{
 width: 100%;
@@ -25,3 +26,9 @@ figure.foto-legenda figcaption{
     position: absolute;
     top: 0px;
 }
+
+
+
+
+
+
