@@ -13,9 +13,10 @@ p {
 /* formatação de imagens com legendas */
 
 figure.foto-legenda{
+    position: relative;
     border: 8px solid rgb(146, 146, 146) ;
     box-shadow: 1px 1px 4px black;
-    position: relative;
+    
 }
 figure.foto-legenda img{
 width: 100%;
@@ -25,6 +26,7 @@ height: 100%;
 figure.foto-legenda figcaption{
     position: absolute;
     top: 0px;
+    background-color: rgba(0, 0, 0, .4;
 }
 
 
