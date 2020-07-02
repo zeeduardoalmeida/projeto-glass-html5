@@ -8,3 +8,15 @@ p {
     text-align: justify;
     text-indent: 50px;
 }
+
+
+/* formatação de imagens com legendas */
+
+figure.foto-legenda{
+    bolder: 8px solid red ;
+
+}
+figure.foto-legenda img{
+width: 100%;
+height: 100%;
+}
