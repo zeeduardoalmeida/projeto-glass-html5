@@ -35,7 +35,7 @@ figure.foto-legenda figcaption{
     box-sizing: border-box;
 }
 
-figure.foto-legenda: :hover figcaption{
+figure.foto-legenda:hover figcaption{
     opacity: 1;
 }  
 
