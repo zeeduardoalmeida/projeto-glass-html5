@@ -32,8 +32,13 @@ figure.foto-legenda figcaption{
     height: 100%;
     padding: 10px;
     box-sizing: border-box;
+    opacity: 0;
+
 }
 
+figure.foto-legenda: :hover figcaption{
+    opacity: 1;
+}  
 
 
 
