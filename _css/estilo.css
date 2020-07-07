@@ -1,12 +1,28 @@
 @charset "UTF-8" ;
 
 body{
-    background-color: white ;
+    background-color: #dddddd ;
     color: rgba(0, 0, 0, 1);
 }
+
+
+div#interface {
+    width: 900px;
+    background-color: #ffffff;
+    margin: -20px auto  0px auto ;
+    box-shadow: 0px 0px 10px rgba(0, 0,0, .5);
+    padding: 10px;
+}
+
 p {
     text-align: justify;
     text-indent: 50px;
+}
+
+header#cabecalho img#icone {
+    position: absolute;
+    left: 880px;
+    top: 40px;
 }
 
 
@@ -52,7 +68,7 @@ nav#menu ul {
       text-transform: uppercase;
       position: absolute;
       top: -20px;
-      left: 300px;
+      left: 500px;
 }
 
 nav#menu li {
@@ -75,3 +91,12 @@ nav#menu h1 {
     display: none;
 }
 
+nav#menu a {
+    color: black;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
