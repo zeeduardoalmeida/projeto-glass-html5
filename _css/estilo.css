@@ -63,8 +63,8 @@ nav#menu li {
     transition: background-color 1s;
 }
 
-nav#menu li :hover {
-    background-color: #606060 ;
+nav#menu li:hover {
+    background-color: #a7a7a7 ;
 }
 
 nav#menu h1 {
