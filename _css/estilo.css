@@ -60,6 +60,10 @@ nav#menu li {
     background-color: #dddddd;
     padding: 10px;
     margin: 2px;
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -o-transition: background-color 1s;
+    -ms-transition: background-color 1s;
     transition: background-color 1s;
 }
 
